@@ -42,9 +42,16 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// Run command: webpack ./entry.js bundle.js
+	document.write(__webpack_require__(1));
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write("It works.");
+	module.exports = "It works from content.js.";
 
 /***/ }
 /******/ ]);
