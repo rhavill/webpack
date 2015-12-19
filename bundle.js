@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	// Run command: webpack ./entry.js bundle.js --module-bind "css=style!css"
+	// Run command: webpack ./entry.js bundle.js --progress --colors --watch
 	__webpack_require__(1);
 	document.write(__webpack_require__(5));
 
@@ -402,7 +402,7 @@
 /* 5 */
 /***/ function(module, exports) {
 
-	module.exports = "It works from content.js.";
+	module.exports = "It works from content.js module.";
 
 /***/ }
 /******/ ]);
